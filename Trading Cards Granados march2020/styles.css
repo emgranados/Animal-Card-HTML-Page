@@ -1,0 +1,54 @@
+/* Body and background */
+body {
+  background-image: url('image.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: azure;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+  color: lemonchiffon;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 2em 2em 4em;
+}
+/ * box */
+* {
+    box-sizing: border-box;
+}
+
+div {
+    border: 1px solid gray;
+    padding: 0 10px;
+}
+
+.container {
+    width: 320px;
+    box-shadow: 8px 8px 2px black;
+}
+
+.card {
+    width: 300px;
+    margin: 10px 0;
+}
+
+.card > p:first-child {
+    font-style: italic;
+}
+/* Image */
+.poodle {
+  width: 300px;
+  padding-bottom: .8em;
+}
+span {
+    font-weight: bold;
+}
+
+/* List formatting */
+.list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
